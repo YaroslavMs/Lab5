@@ -1,4 +1,4 @@
-package Flower.store;
+package flower.store;
 
 public enum FlowerColor {
 

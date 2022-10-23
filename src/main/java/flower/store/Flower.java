@@ -1,4 +1,4 @@
-package Flower.store;
+package flower.store;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,6 +22,7 @@ public class Flower {
     public Flower() {
 
     }
+
     public String getColor() {
         return color.toString();
     }
