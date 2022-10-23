@@ -1,18 +1,19 @@
-package Flower;
+package Flower.store;
 
-import Flower.Flower;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 @AllArgsConstructor
 public class FlowerPack {
-    @Getter @Setter
+    @Getter
+    @Setter
     private Flower flower;
-    @Getter @Setter
+    @Getter
+    @Setter
     private int amount;
 
-    public double getPrice(){
+    public double getPrice() {
         return flower.getPrice() * amount;
     }
 }
