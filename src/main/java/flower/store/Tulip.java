@@ -6,6 +6,7 @@ public class Tulip extends Flower {
     private static final int PRICE_TULIP = 14;
 
     public Tulip() {
-        super(FlowerColor.BLUE, FlowerType.Tulip, SEPAL_LENGTH_TULIP, PRICE_TULIP);
+        super(FlowerColor.BLUE, FlowerType.Tulip, SEPAL_LENGTH_TULIP,
+                PRICE_TULIP);
     }
 }
